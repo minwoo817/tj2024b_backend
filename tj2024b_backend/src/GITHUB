@@ -25,3 +25,16 @@
 		[Unstaged Changes] : 커밋 전, 수정된 파일
 		[staged changes] : 커밋할 파일
 		[commit message] : 커밋 메시지
+		
+	* 토큰 발급
+		1. github 홈페이지 본인 프로필 클릭 -> [settings]
+		2. 왼쪽 사이드바 메뉴 가장 하단에 [Developer Settings]
+		3. [Personal access tokens (classic)]
+		4. tokens (classic) 클릭
+		5. Generate new token classic 클릭
+		6. 
+			Note : 토큰 식별명
+			Expiration : 유효기간 
+			모든 체크 권한
+		7. 토큰 발급 코드 : 
+		

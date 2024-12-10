@@ -20,8 +20,8 @@
 	1. 준비물 : Scanner scan = new Scanner(System.in); 입력객체
 		- 입력객체 생성시 주의할점 : class파일에 1개만 존재해도 여러번 입력받을 수 있다.
 		- Scanner 클래스 입력시 코드파일 상단에 import java.util.Scanner;
-			-> Scanner 클래스 입력시 자동완성
-			-> import란 다른 패키지/폴더의 클래스
+			-> Scanner 클래스 입력시 자동완성시 import도 자동으로 생성된다.
+			-> import란 다른 패키지/폴더의 클래스를 가져온다는 코드 , 예외] java.lang패키지( 기본클래스 모임 ) 
 	2. 사용 : scan.nextXXX()
 	입력함수 :
 		.next() , .nextLine() , .nextByte() , 
