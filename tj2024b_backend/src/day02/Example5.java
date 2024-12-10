@@ -21,21 +21,21 @@ public class Example5 {
 		int i3 = scan.nextInt();
 		int result1 = i1 + i2+ i3;
 		int result2 = (i1 + i2 + i3) / 3;
-		System.out.printf("총점 : %d 평균 : %d /n", result1, result2);
+		System.out.printf("총점 : %d 평균 : %d \n", result1, result2);
 		
 		 // [지문2] 반지름를 입력받아서 원넓이[반지름*반지름*3.14] 계산하여 console탭에 출력하시오.
 		System.out.println("반지름 입력: ");
 		int i4 = scan.nextInt();
 		double result4 = i4 * i4 * 3.14;
-		System.out.printf("원넓이 : %.2f /n", result4);
+		System.out.printf("원넓이 : %.2f \n", result4);
 		
 		// [지문3] 두 실수를 입력받아서 앞 실수의 값이 뒤실수의 값의 비율% 계산하여 console탭에 출력하시오.
 		System.out.println("실수 1 입력 : ");
 		double f1 = scan.nextDouble();
 		System.out.println("실수 2 입력 : ");
 		double f2 = scan.nextDouble();
-		double result5 = f1 / f2 * 100;
-		System.out.printf("비율 : %.0f% /n", result5);
+		double result5 = f1 / f2 * 100.0;
+		System.out.println(result5 + "%");
 	
 		// [지문4] 정수를 입력받아 입력받은 값이 홀수이면 true / 짝수이면 false 로 console탭에 출력하시오.
 		System.out.println("점수 : ");
@@ -58,7 +58,7 @@ public class Example5 {
 		int result6 = i8 / 100000;
 		int result7 = i8 % 100000 / 10000;
 		int result8 = i8 % 10000 / 1000;
-		System.out.printf("십만원 : %d장 만원 : %d장 천원 : %d장  /n", result6, result7, result8);
+		System.out.printf("십만원 : %d장 만원 : %d장 천원 : %d장  \n", result6, result7, result8);
 	
 		 // [지문8] 1차점수 와 2차점수 각각 입력받아서 
         // -> 총점이 150점이상이면 '합격' 아니면 '불합격' 으로 console탭에 출력하시오.
