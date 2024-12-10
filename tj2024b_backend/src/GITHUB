@@ -1,0 +1,27 @@
+[이클립스 GITHUB 연동]
+	1. GITHUB 웹페이지에서 저장소(리포지토리) 만들기
+	2. [NEW repository] 클릭
+		1. repository name : tj2024b_backend
+		2. Public(공용) 체크
+		[create repository] 클릭
+	3. 방금 생성된 비어 있는 저장소 확인할 수 있다.
+	4.[이클립스] -> 상단메뉴[Window] -> [Show view] ->[others]
+	5. [git] -> [git repositories]
+	6. clone a Git repository 클릭 -> clone URI 클릭
+	7. 	
+		URI : 클론할 깃 저장소 주소
+		user : git이름
+		password : git 비밀번호
+	8. [next] -> [finish]
+	9. 현재 이클립스내 프로젝트를 clone된 저장소에 공유하기
+		1. 공유할 프로젝트폴더 오른쪽 클릭
+		2. [team] -> share project
+			* 주의할점 : use or create 체크 X
+			repository : 프로젝트를 공유할 저장소 선택
+			[finish]
+			* 프로젝트폴더명 옆에 [저장소명] 있으면 공유 성공
+	10. [최초로 커밋/푸시]
+		프로젝트명 오른쪽 플릭 -> team -> commit
+		[Unstaged Changes] : 커밋 전, 수정된 파일
+		[staged changes] : 커밋할 파일
+		[commit message] : 커밋 메시지
