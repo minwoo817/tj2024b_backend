@@ -199,6 +199,7 @@ public class Example4 {
 			count++;
 		}
 		System.out.printf("동일한 번호는 %d개입니다.", count);
+		
 	}
 
 }
