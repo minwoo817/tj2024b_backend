@@ -1,5 +1,7 @@
 package day03;
 
+import java.util.Scanner;
+
 public class Example3 { // class s 
 	public static void main(String[] args) { // main s 
 		// p.92 조건문 
@@ -25,5 +27,27 @@ public class Example3 { // class s
 			System.out.println("남성입니다.");
 		}
 		
-	} // main e 
+		Scanner scan = new Scanner(System.in);
+		System.out.println("성적 입력: ");
+		int score = scan.nextInt();
+		char grade;
+		if(score>=90) {
+			grade = 'A';
+		}
+		else if(score>=80) {
+			grade = 'B';
+		}
+		else if(score>=70) {
+			grade = 'C';
+		}
+		else if(score>=60) {
+			grade = 'D';
+		}
+		else {
+			grade = 'E';
+		}
+		System.out.println(score);
+		System.out.println(grade);
+		
+		} // main e 
 } // class e 
