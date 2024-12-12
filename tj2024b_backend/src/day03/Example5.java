@@ -50,8 +50,6 @@ public class Example5 {
 			m = (mmm-early+early1)%60;
 			System.out.printf("%d시 %d분에 일어나세요", hm, m);
 		}	
-			
-		
 	}
 
 }
