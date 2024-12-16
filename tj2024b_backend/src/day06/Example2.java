@@ -31,31 +31,36 @@ public class Example2 {
 			Scanner scan = new Scanner(System.in);
 			int menu = scan.nextInt();
 			if(menu == 1) { System.out.println("콜라 선택");
-				cokecount--;
-				cokecount1++;
 				if(cokecount <= 0) {
 				System.out.println("재고가 부족합니다");
 				}
-				
+				else {
+					cokecount--;
+					cokecount1++;
+				}
 			}
 			else if(menu == 2) { System.out.println("사이다선택");
-				spritecount--; 
-				spritecount1++;
 				if(spritecount <=0) {
 					System.out.println("재고가 부족합니다");
 				}
+				else {
+					spritecount--; 
+					spritecount1++;
+				}
 			}
 			else if(menu == 3) { System.out.println("환타선택");
-				fantacount--; 
-				fantacount1++;
 				if(fantacount <=0) {
 					System.out.println("재고가 부족합니다");
+				}
+				else {
+					fantacount--; 
+					fantacount1++;
 				}
 			}
 			else if(menu == 4) { 
 				int money = (cokecount1*coke) + (spritecount1*sprite) + (fantacount1 * fanta);
-				System.out.printf("콜라 : %d개, 사이다 : %d개, 환타 : %d개 총금액: %d",cokecount1, spritecount1, fantacount1, money);
-				break;
+				System.out.printf("콜라 : %d개, 사이다 : %d개, 환타 : %d개 총금액: %d원 \n",cokecount1, spritecount1, fantacount1, money);
+				
 			}
 		}
 
