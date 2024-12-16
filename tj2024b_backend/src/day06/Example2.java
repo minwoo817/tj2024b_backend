@@ -25,41 +25,35 @@ public class Example2 {
 		int coke = 1000; int cokecount = 10;  int cokecount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
 		int sprite = 1500; int spritecount = 10; int spritecount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
 		int fanta = 2000; int fantacount = 10; int fantacount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
-		int money = 0;
 		while(true) {
 			System.out.println("===키오스크 프로그램===");
 			System.out.println("1.콜라 2.사이다 3.환타 4.결제");
 			Scanner scan = new Scanner(System.in);
 			int menu = scan.nextInt();
-			if(menu == 1) {
-				money += coke; 
+			if(menu == 1) { System.out.println("콜라 선택");
 				cokecount--;
 				cokecount1++;
-				System.out.println("콜라 선택"); 
 				if(cokecount <= 0) {
 				System.out.println("재고가 부족합니다");
 				}
 				
 			}
-			else if(menu == 2) { 
-				money += sprite; 
+			else if(menu == 2) { System.out.println("사이다선택");
 				spritecount--; 
 				spritecount1++;
-				System.out.println("사이다선택");
 				if(spritecount <=0) {
 					System.out.println("재고가 부족합니다");
 				}
 			}
-			else if(menu == 3) { 
-				money += fanta; 
+			else if(menu == 3) { System.out.println("환타선택");
 				fantacount--; 
 				fantacount1++;
-				System.out.println("환타선택");
 				if(fantacount <=0) {
 					System.out.println("재고가 부족합니다");
 				}
 			}
 			else if(menu == 4) { 
+				int money = (cokecount1*coke) + (spritecount1*sprite) + (fantacount1 * fanta);
 				System.out.printf("콜라 : %d개, 사이다 : %d개, 환타 : %d개 총금액: %d",cokecount1, spritecount1, fantacount1, money);
 				break;
 			}
