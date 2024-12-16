@@ -22,9 +22,9 @@ import java.util.Scanner;
 public class Example2 {
 
 	public static void main(String[] args) {
-		int coke = 1000; int cokecount = 10; int cokecount1 = 0;
-		int sprite = 1500; int spritecount = 10; int spritecount1 = 0;
-		int fanta = 2000; int fantacount = 10; int fantacount1 = 0;
+		int coke = 1000; int cokecount = 10;  int cokecount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
+		int sprite = 1500; int spritecount = 10; int spritecount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
+		int fanta = 2000; int fantacount = 10; int fantacount1 = 0; // 앞의 count = 재고, 뒤의 count = 장바구니에 담긴 수량
 		int money = 0;
 		while(true) {
 			System.out.println("===키오스크 프로그램===");
