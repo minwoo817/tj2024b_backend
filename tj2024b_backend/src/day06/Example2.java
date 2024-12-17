@@ -60,7 +60,7 @@ public class Example2 {
 			else if(menu == 4) { 
 				int money = (cokecount1*coke) + (spritecount1*sprite) + (fantacount1 * fanta);
 				System.out.printf("콜라 : %d개, 사이다 : %d개, 환타 : %d개 총금액: %d원 \n",cokecount1, spritecount1, fantacount1, money);
-				
+				cokecount1=0; spritecount1=0; fantacount1=0;
 			}
 		}
 
