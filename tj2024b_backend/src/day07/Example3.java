@@ -44,7 +44,7 @@ public class Example3 {
 					member3 = member;
 				}
 				else {
-					System.out.println("회원정보 초과");
+					System.out.println("회원은 최대 3명까지 저장할 수 있습니다.");
 				}
 			}
 			else if(choose == 2) {
