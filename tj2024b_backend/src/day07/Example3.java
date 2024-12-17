@@ -52,13 +52,13 @@ public class Example3 {
 				String id1 = scan.next();
 				System.out.println("비밀번호 : ");
 				String pw1 = scan.next();
-				if(member1.id.equals(id1) && member1.pw.equals(pw1)) {
+				if(member1 != null && member1.id.equals(id1) && member1.pw.equals(pw1)) {
 					System.out.println("로그인 성공");
 				}
-				else if(member2.id.equals(id1) && member2.pw.equals(pw1)) {
+				else if(member2 != null && member2.id.equals(id1) && member2.pw.equals(pw1)) {
 					System.out.println("로그인 성공");
 				}
-				else if(member3.id.equals(id1) && member3.pw.equals(pw1)) {
+				else if(member3 != null && member3.id.equals(id1) && member3.pw.equals(pw1)) {
 					System.out.println("로그인 성공");
 				}
 				else {
