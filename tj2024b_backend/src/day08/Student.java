@@ -23,8 +23,8 @@ public class Student { // 객체를 만들기 위한 설계도 클래스, 클래
 	public static void main(String[] args) {
 		Student studentAhn = new Student(); // (1) 인스턴스(객체) 생성
 		studentAhn.studentName = "안연수";	//(2) 객체내 멤버변수에 값을 대입
-		System.out.println(studentAhn.studentName);
-		System.out.println(studentAhn.getStudentName());
+		System.out.println(studentAhn.studentName);			// (3) 객체내 멤버변수에 값 대입
+		System.out.println(studentAhn.getStudentName());	// (4) 객체내 멤버함수/메소드를 호출
 		
 	}
 	
