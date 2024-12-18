@@ -12,7 +12,7 @@ public class Example5 {
 			avg = sum1 / score.length;
 		}
 		System.out.println(sum1);
-		System.out.println(avg);
+		System.out.println(avg);	
 
 	}
 
