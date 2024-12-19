@@ -13,8 +13,10 @@ import java.util.Scanner;
 		1 선택시 : 아이디, 비밀번호, 닉네임 3개의 각 정보를 입력받아 저장하기
 		2 선택시 : 아이디, 비밀번호를 입력받아 기존의 저장된 정보와 일치한 정보가 있으면 '로그인성공' 아니면 '로그인실패' 출력한다.
 	
-	1. 코드 구현
-	2. 구현된 코드에서 문법 찾기
+	// 순서
+	// 1. 구현하고자하는 초기 화면 구성
+	// 2. (객체) 클래스설계, 메모리 설계
+	// 3. 메소드 구성
 
 */
 public class Example2 {
@@ -37,3 +39,11 @@ public static void main(String[] args) {
 	
 }
 }
+
+/*
+ 	1. 기본타입 : boolean, char, byte, short, int, long, float, double
+ 		== 기본타입 비교
+ 		
+ 	2. 참조/클래스타입 : String, Scanner, Member, MemberService(8개 외)
+ 		.equals() 참조타입 비교 함수
+*/
