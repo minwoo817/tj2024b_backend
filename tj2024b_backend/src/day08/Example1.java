@@ -43,7 +43,7 @@ public class Example1 {
 				for(int i = 0; i <= waitingArray.length-1; i++) {
 					if(waitingArray[i] != null) {
 						Waiting waiting = waitingArray[i];
-						System.out.printf("순번 : %d, 전화번호 : %s, 인원수 : %d\n", i+1, waiting.phone, waiting.count);
+						System.out.printf("순번 : %d, 전화번호 : %s, 인원수 : %d \n", i+1, waiting.phone, waiting.count);
 					}
 				}
 			}

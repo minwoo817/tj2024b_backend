@@ -60,6 +60,7 @@ public class BoardProgram3 {
 						Board board = boardArray[index];
 						System.out.printf("순번 : %d, 제목 : %s, 내용 : %s, 작성자 : %s \n", index, board.title, board.content, board.writer);
 					}
+		
 				}
 			}
 			
