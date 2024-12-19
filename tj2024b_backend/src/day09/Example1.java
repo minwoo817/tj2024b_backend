@@ -12,7 +12,9 @@ import java.util.Scanner;
 */
 public class Example1 {
 	public static void main(String[] args) {
+		// [*] 기능 제공 객체 생성
 		WaitingService ws = new WaitingService();
+		// [*] 배열 생성
 		Waiting[] waitings = new Waiting[100];
 		
 		while(true) {
